@@ -1,0 +1,24 @@
+---
+title: "Sept22-Winners"
+author: "Bill Carney"
+date: "9/22/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Winners
+
+Based on Hadley's script we've randomly selected five individuals with the greatest number of likes on [RStudio Communtiy](https://community.rstudio.com/) 
+
+The winners this week are:
+
+Name| likes
+------|-----
+mara| 61 
+alistaire| 45 
+daattali| 29 
+emilyriederer| 17 
+eric_bickel| 12 
