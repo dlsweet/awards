@@ -1,5 +1,5 @@
 ---
-title: "Sept22-Winners"
+title: "Community Contributor Winners"
 author: "Bill Carney"
 date: "9/22/2017"
 output: html_document
@@ -9,11 +9,12 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Community Contributor Winners
+## The RStudio Community
 
 We've randomly selected five individuals that have contributed content and received the greatest number of likes on [RStudio Community](https://community.rstudio.com/). We will be reaching out to each winner directly to be able to ship them their awards.
 
 The first award is an RStudio t-shirt and all of the hex and RStudio stickers we can find.  The winners for the week of September 22nd are:
+
 Name| likes
 ------|-----
 mara| 61 
