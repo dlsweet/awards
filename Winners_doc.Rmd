@@ -9,11 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Community Winners
+## Community Contributor Winners
 
-We've randomly selected five individuals with the greatest number of likes on [RStudio Communtiy](https://community.rstudio.com/).  Each individual will win a tshirt of their choice and all of the hex and RStudio stickers.
+We've randomly selected five individuals with the greatest number of likes on [RStudio Communtiy](https://community.rstudio.com/). We will be reaching out to each winner to be able to ship them their awards.
 
-The winners for the week of September 22nd are:
+The first award is a tshirt of their choice and all of the hex and RStudio stickers.  The winners for the week of September 22nd are:
 
 Name| likes
 ------|-----
