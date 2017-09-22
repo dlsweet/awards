@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## The RStudio Community
 
-We're excited to announce the latest prize winners from the RStudio Community.  We've randomly selected five individuals, weighted by the number of likes they received.  [RStudio Community](https://community.rstudio.com/). We will be reaching out to each winner directly to be able to ship them their awards.
+We're excited to announce the latest prize winners from the [RStudio Community](https://community.rstudio.com/).We've randomly selected five individuals, weighted by the number of likes they received. We will be reaching out to each winner directly to be able to ship them their awards.
 
 The first award is an RStudio t-shirt and all of the hex and RStudio stickers we can find.  The winners for the week of September 22nd are:
 
