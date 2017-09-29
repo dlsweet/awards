@@ -22,3 +22,15 @@ alistaire| 45
 daattali| 29 
 emilyriederer| 17 
 eric_bickel| 12 
+
+The second week award is again an RStudio t-shirt and all of the hex and RStudio stickers we can find.  The winners for the week of September 29th are:
+
+Name| likes
+------|-----
+nick| 48 
+jessemaegan| 42 
+raybuhr| 14 
+billr| 7 
+mmuurr| 6 
+
+

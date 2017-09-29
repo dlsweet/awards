@@ -14,8 +14,12 @@ users <- tibble(
   likes = users_raw %>% map_int("likes_received"),
   title = users_raw %>% map_chr(c("user", "title"), .default = NA)
 )
+winners <- c(
+  "mara", "alistaire", "daattali", "emilyriederer", "eric_bickel", "nick", "jessemaegan", "raybuhr", "billr", "mmuurr"
+)
 
 users %>%
-  filter(is.na(title)) %>%
+  filter(is.na(title), !name %in% winners) %>%
   select(-title) %>%
-  sample_n(5, weight = likes)
+  sample_n(5, weight = likes) %>%
+  arrange(desc(likes))
