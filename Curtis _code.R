@@ -1,6 +1,6 @@
 library(httr)
 library(dplyr)
-
+library(purrr)
 
 url_users <- function(page = 1, domain = "https://community.rstudio.com"){
   paste(
