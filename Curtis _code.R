@@ -1,14 +1,15 @@
 library(httr)
 library(dplyr)
+library(purrr)
 
-
-url_users <- function(page = 1, domain = "https://community.rstudio.com"){
+url_users <- function(page = 0, domain = "https://community.rstudio.com"){
   paste(
     domain,
     
-    "/directory_items.json?&page=",
+    "/directory_items.json?",
+    "&period=weekly&order=likes_received",
+    "&page=",
     page,
-    "&period=all&order=likes_received",
     sep = ""
   )
 }
@@ -21,7 +22,7 @@ con <- httr::content(req)
 
 users <- data.frame() %>% tbl_df
 user_cnt = 0
-page = 1
+page = 0
 
 while (length(con$directory_items) > 0){
   
@@ -35,10 +36,10 @@ while (length(con$directory_items) > 0){
       likes = users_raw %>% map_int("likes_received"),
       title = users_raw %>% map_chr(c("user", "title"), .default = NA),
       time_read = users_raw %>% map_chr(c("time_read"), .default = NA),
-      likes_given = users_raw %>% map_chr(c("likes_given"), .default = NA),
-      topics_entered = users_raw %>% map_chr(c("topics_entered"), .default = NA),
-      post_count = users_raw %>% map_chr(c("post_count"), .default = NA),
-      days_visited = users_raw %>% map_chr(c("days_visited"), .default = NA)
+      likes_given = users_raw %>% map_int(c("likes_given"), .default = NA),
+      topics_entered = users_raw %>% map_int(c("topics_entered"), .default = NA),
+      post_count = users_raw %>% map_int(c("post_count"), .default = NA),
+      days_visited = users_raw %>% map_int(c("days_visited"), .default = NA)
     )
   )
   
