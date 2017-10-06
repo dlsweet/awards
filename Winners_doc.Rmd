@@ -33,3 +33,13 @@ raybuhr| 14
 billR| 7 
 mmuurr| 6 
 
+We’re excited to announce the prize winners for the third week. The award is an RStudio t-shirt and all of the hex and RStudio stickers we can find. The winners for the week of October 6th are:
+
+Name| likes
+------|-----
+apreshill| 19 
+pavopax| 11 
+mfherman| 10 
+rensa| 7 
+tomtec| 4 
+
