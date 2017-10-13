@@ -43,7 +43,7 @@ mfherman| 10
 rensa| 7 
 tomtec| 4 
 
-We’re excited to announce the prize winners for the forth week. The award is an RStudio t-shirt and all of the hex and RStudio stickers we can find. The winners for the week of October 13th are:
+We’re excited to announce the prize winners for the fourth week. The award is an RStudio t-shirt and all of the hex and RStudio stickers we can find. The winners for the week of October 13th are:
 
 Name| likes
 ------|-----
