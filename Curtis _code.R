@@ -64,7 +64,7 @@ users = users %>%
   )
 
 winners <- c(
-  "mara", "alistaire", "daattali", "emilyriederer", "eric_bickel", "nick", "jessemaegan", "raybuhr", "billr", "mmuurr", "apreshill", "pavopax", "mfherman","rensa", "tomtec"
+  "mara", "alistaire", "daattali", "emilyriederer", "eric_bickel", "nick", "jessemaegan", "raybuhr", "billr", "mmuurr", "apreshill", "pavopax", "mfherman","rensa", "tomtec", "pssguy", "cdr6934", "rpodcast", "Andrea", "timpe"
 )
 
 users %>%
