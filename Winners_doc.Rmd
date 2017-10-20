@@ -53,3 +53,12 @@ rpodcast| 5
 Andrea| 4 
 timpe| 2 
 
+Week #5 winners. The award is an RStudio t-shirt and all of the hex and RStudio stickers we can find. The winners for the week of October 20th are:
+
+Name| likes
+------|-----
+cderv| 10 
+PirateGrunt| 4 
+mungojam| 3 
+rkahne| 3 
+DaveRGP| 2 
