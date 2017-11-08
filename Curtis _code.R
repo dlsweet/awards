@@ -64,7 +64,7 @@ users = users %>%
   )
 
 winners <- c(
-  "mara", "alistaire", "daattali", "emilyriederer", "eric_bickel", "nick", "jessemaegan", "raybuhr", "billr", "mmuurr", "apreshill", "pavopax", "mfherman","rensa", "tomtec", "pssguy", "cdr6934", "rpodcast", "Andrea", "timpe"
+  "mara", "alistaire", "daattali", "emilyriederer", "eric_bickel", "nick", "jessemaegan", "raybuhr", "billr", "mmuurr", "apreshill", "pavopax", "mfherman","rensa", "tomtec", "pssguy", "cdr6934", "rpodcast", "Andrea", "timpe", "cderv", "PirateGrunt", "mungojam", "rkahne", "DaveRGP", "danr", "jim89", "nakamichi", "Ranae", "jasonserviss" 
 )
 
 users %>%

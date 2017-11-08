@@ -62,3 +62,24 @@ PirateGrunt| 4
 mungojam| 3 
 rkahne| 3 
 DaveRGP| 2 
+
+Week #6 winners will receive an RStudio t-shirt and all of the hex and RStudio stickers we can find. The winners for the week of October 27th are:
+
+Name| likes
+------|-----
+danr| 17 
+jim89| 8 
+nakamichi| 4 
+Ranae| 4 
+jasonserviss| 1 
+
+
+Sorry for the delay! Week #7 winners will receive an RStudio t-shirt and all of the hex and RStudio stickers we can find. The winners for the week of November 3rd are:
+
+Name| likes
+------|-----
+FlorianGD| 5 
+Damian| 4 
+jtr13| 3 
+RStudioUser| 1 
+robertmitchellv| 1 
