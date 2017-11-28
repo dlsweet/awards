@@ -64,11 +64,11 @@ users = users %>%
   )
 
 winners <- c(
-  "mara", "alistaire", "daattali", "emilyriederer", "eric_bickel", "nick", "jessemaegan", "raybuhr", "billr", "mmuurr", "apreshill", "pavopax", "mfherman","rensa", "tomtec", "pssguy", "cdr6934", "rpodcast", "Andrea", "timpe", "cderv", "PirateGrunt", "mungojam", "rkahne", "DaveRGP", "danr", "jim89", "nakamichi", "Ranae", "jasonserviss" 
+  "mara", "alistaire", "daattali", "emilyriederer", "eric_bickel", "nick", "jessemaegan", "raybuhr", "billr", "mmuurr", "apreshill", "pavopax", "mfherman","rensa", "tomtec", "pssguy", "cdr6934", "rpodcast", "Andrea", "timpe", "cderv", "PirateGrunt", "mungojam", "rkahne", "DaveRGP", "danr", "jim89", "nakamichi", "Ranae", "jasonserviss", "FlorianGD", "Damian", "jtr13", "RStudioUser", "robertmitchellv" 
 )
 
 users %>%
   filter(is.na(title), !name %in% winners) %>%
   select(-title) %>%
-  sample_n(5, weight = likes) %>%
+  sample_n(10, weight = likes) %>%
   arrange(desc(likes))

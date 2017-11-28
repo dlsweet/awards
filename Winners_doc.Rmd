@@ -83,3 +83,19 @@ Damian| 4
 jtr13| 3 
 RStudioUser| 1 
 robertmitchellv| 1 
+
+
+We missed a week! Week #8 and #9 winners will receive an RStudio t-shirt and all of the hex and RStudio stickers we can find. The winners for the week of November 10th & 17th are:
+
+Name| likes
+------|-----
+jakekaupp| 12 
+taraas| 10 
+hinkelman| 5 
+tyluRp| 5 
+Tazinho| 3 
+Anantadinath| 2 
+scw| 2 
+raviolli77| 1 
+yonicd| 1 
+yutannihilation| 1 
